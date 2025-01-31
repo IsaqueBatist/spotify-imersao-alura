@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/png">
   <!--Reset css-->
-  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <!--Variables-->
+  <link rel="stylesheet" href="./src/styles/vars.css">
   <!--Styles-->
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+  <link rel="stylesheet" href="./src/styles/main-content.css">
   <!--Font awesome cdn links-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
@@ -21,7 +24,7 @@
     <nav class="sidebar_navigation">
       <div class="logo">
         <a href="#">
-          <img src="./assets/icons/logo-spotify.png" alt="spotify icon">
+          <img src="./src/assets/icons/logo-spotify.png" alt="spotify icon">
         </a>
       </div>
         <ul>
@@ -70,6 +73,32 @@
       </div>
     </div>
   </div>
+  <main>
+    <div class="main-container">
+      <nav class="header-navigation">
+        <div class="navigation">
+          
+          <button class="arrow-left">
+            <img src="./src/assets/icons/small-left.png" alt="left arrow">
+          </button>
+            
+            <button class="arrow-right">
+              <img src="./src/assets/icons/small-right.png" alt="right arrow"></button>
+            </button>
+        </div>
+          
+          <div class="header-search">
+            <img src="./src/assets/icons/search.png" alt="">
+            <input type="text" id="search-input" maxlength="800" placeholder="What do you want to listen?">
+          </div>
+
+          <div class="header-login">
+            <button class="subscribe">Subscribe</button>
+            <button class="login">Login</button>
+          </div>
+      </nav>
+    </div>
+  </main>
 </body>
 
 </html>

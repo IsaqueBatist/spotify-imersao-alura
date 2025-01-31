@@ -1,0 +1,40 @@
+/*HEADER*/
+
+.main-container{
+  max-width: 80vw;
+  height: 100vw;
+  margin-left: 320px;
+}
+
+.header-navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.arrow-left{
+  margin-left: 1.25rem;
+}
+
+.arrow-right, .arrow-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  background: var(--bg-icon);
+  background-color: var(--bg-arrow-color);
+
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
