@@ -38,3 +38,51 @@
   border: none;
   cursor: pointer;
 }
+
+.header-login{
+  display: flex;
+  align-items: center;
+}
+.subscribe{
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 32px;
+  border: none;
+}
+
+.login{
+  width: 100px;
+  height: 48px;
+  color: #000;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-search{
+  display: flex;
+  align-items: center;
+  width: 364px;
+  height: 48px;
+  margin-left: 8px;
+  background-color: #242424;
+  border-radius: 500px;
+  border: 1px solid transparent;
+  img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+  }
+  input{
+    background-color: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis; /*New*/
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+  }
+}
